@@ -5,7 +5,7 @@ import { AppService } from './app.service';
 import { Categoria } from './producto/entitys/categoria.entity';
 import { Foto } from './producto/entitys/foto.entity';
 import { Producto } from './producto/entitys/producto.entity';
-import { Variacion } from './producto/entitys/Variacion.entity';
+import { Variacion } from './producto/entitys/variacion.entity';
 import { ProductoModule } from './producto/producto.module';
 
 @Module({
