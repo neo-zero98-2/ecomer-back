@@ -1,0 +1,23 @@
+### consulta productos por paginacion
+GET http://localhost:3000/producto?pageNo=1
+
+### consulta producto por id
+GET http://localhost:3000/producto/1
+
+### consulta por nombre o descripcion
+GET http://localhost:3000/producto/busqueda/motocicleta
+
+### filtros de busqueda
+POST  http://localhost:3000/producto/
+Content-Type: application/json
+
+{
+    "idCategorias": 1,
+    "existencia": 4,
+    "precioMinimo": 1,
+    "precioMaximo": 50999
+}
+
+### traer todas las categorias
+GET http://localhost:3000/producto/saludo/1
+
