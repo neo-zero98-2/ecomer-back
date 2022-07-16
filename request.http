@@ -21,3 +21,5 @@ Content-Type: application/json
 ### traer todas las categorias
 GET http://localhost:3000/producto/saludo/1
 
+### 
+GET https://ecomerce-webapp.azurewebsites.net/producto/1
